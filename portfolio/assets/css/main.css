@@ -167,7 +167,7 @@ input, select, textarea {
 		font-size: 3.25em;
 		letter-spacing: -0.025em;
 		font-weight: 300;
-		line-height: 1;
+		line-height: normal;
 	}
 
 		h1 strong {
@@ -1975,7 +1975,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-		.fab {
+		.fab, .fas, .far {
 			color: #EA8A95;
 			display: block;
 			margin: 0 0 1.5em 0;
@@ -1983,6 +1983,13 @@ input, select, textarea {
 		}
 
 			.fab:before {
+				font-size: 6em;
+			}
+			.fas:before {
+				font-size: 6em;
+			}
+
+			.far:before {
 				font-size: 6em;
 			}
 
