@@ -1628,8 +1628,6 @@ input, select, textarea {
 	.image {
 		display: inline-block;
 		position: relative;
-		border-bottom: 13px solid;
-		box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 15px 10px 0px rgba(0, 0, 0, 0.1);
 	}
 
 		.image img {
@@ -1648,9 +1646,10 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
-			padding: 10px 13px 0px 13px;
+			padding: 13px 30px 0px 30px;
 			box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 15px 10px 0px rgba(0, 0, 0, 0.1);
-			background-color: rgba(131, 42, 248, 0.055);
+			background-color: rgba(0, 0, 0, 0.22);
+			border-bottom: 13px solid;
 			
 		}
 
@@ -1925,6 +1924,7 @@ input, select, textarea {
 		box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 0.1), 0px 4px 10px 3px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
+		background-color: aliceblue;
 	}
 
 		.box.style1 {
@@ -2135,6 +2135,8 @@ input, select, textarea {
 
 			#top .image img {
 				border-radius: 100%;
+				height: 100%;
+				box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
 			}
 
 		#top h1 {
