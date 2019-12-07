@@ -115,7 +115,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: rgb(131, 42, 248) !important;
 		}
 
 		a img {
@@ -183,6 +183,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1.5em;
 		letter-spacing: -0.015em;
+		margin-top: -18px;
 	}
 
 	em, i {
@@ -1627,11 +1628,15 @@ input, select, textarea {
 	.image {
 		display: inline-block;
 		position: relative;
+		border-bottom: 13px solid;
+		box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 15px 10px 0px rgba(0, 0, 0, 0.1);
 	}
 
 		.image img {
 			display: block;
 			width: 100%;
+			border-radius: 5px 5px 0 0;
+			
 		}
 
 		.image.fit {
@@ -1643,6 +1648,10 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+			padding: 10px 13px 0px 13px;
+			box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 15px 10px 0px rgba(0, 0, 0, 0.1);
+			background-color: rgba(131, 42, 248, 0.055);
+			
 		}
 
 		.image.left {
@@ -1708,7 +1717,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: rgb(131, 42, 248);
 			top: 1px;
 		}
 
@@ -1913,8 +1922,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 0.1), 0px 4px 10px 3px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
 	}
